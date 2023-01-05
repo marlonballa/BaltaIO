@@ -1,0 +1,15 @@
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\bin\Debug\net7.0\Experience2021.exe
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\bin\Debug\net7.0\Experience2021.deps.json
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\bin\Debug\net7.0\Experience2021.runtimeconfig.json
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\bin\Debug\net7.0\Experience2021.dll
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\bin\Debug\net7.0\Experience2021.pdb
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.csproj.AssemblyReference.cache
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.AssemblyInfoInputs.cache
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.AssemblyInfo.cs
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.csproj.CoreCompileInputs.cache
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.dll
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\refint\Experience2021.dll
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.pdb
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\Experience2021.genruntimeconfig.cache
+C:\Users\Marlon Balla\Desktop\BaltaIO\Experience2021\obj\Debug\net7.0\ref\Experience2021.dll

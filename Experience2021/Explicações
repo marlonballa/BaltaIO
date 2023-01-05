@@ -1,0 +1,128 @@
+## O arquivo .csproj 
+
+    * Armazena as informações referentes ao projeto que estamos desenvolvendo. 
+
+## O que são NameSpaces
+    * NameSpaces são separações lógicas para os nossos arquivos, ou seja, podemos criar vários arquivos dentro de uma pasta e sapará-los de forma lógica. 
+
+## O que é o CLR?
+    Common Languagem Runtime - é o responsável por executar o código que desenvolvemos em C# e realizar a gestão de memória necessária para a execução da aplicação (carbage collector). 
+
+## Como criar variáveis em C#? (Built in)
+    * Tipagem Primitiva:
+        int teste = 1;
+
+    * Tipagem por inferência:
+        var teste = 1;
+        Permite que  uma variável seja criada, sem a necessidade de se informar o tipo da mesma. No entanto, uma vez atribuido o valor à variável, o tipo deste valor será mantido para todas as ocasiões em que houver sua alteração.
+
+    * Tipo Dinâmico:
+        Permite a criação de variáveis dinâmicas, ou seja, que não sabem qual será o tipo do valor que ela receberá. Mas, erros durante o uso deste tipo não são visíveis em tempo de compilação, apenas em tempo de execução. 
+
+    * Tipagem Complexa
+        Utilizada quando instânciamos uma classe ou uma estrutura
+            Class -> É um tipo de referência de um valor na memória, que permite acessar os valores que estão dentro da classe. 
+
+            Struct -> Possui uma área de dados mais organizada, na memória, como uma pilha (realmente)
+
+        var firstClass = new nameClass(); 
+
+        public class nameClass() 
+        {
+
+        }
+
+## Modificadores de Acesso
+
+    * São os responsáveis por definir quem poderá ter acessoas informações, atributos, métodos de uma classe, objeto, interface, etc. 
+
+    * O tipo padrão utilizado em C# é o tipo 'private'. 
+
+        - private: Acessível apenas pelo escopo onde o objeto está. 
+        - internal: Acessível apenas pelo projeto onde o objeto está.
+        - public: Acessível de qualquer parte do projeto.
+
+    public class Order
+    {
+        private double _valor = 0;
+        public int IdOrder { get; set; }
+    }
+
+    Objeto criado a partir da classe Order:
+        var orderOne = new Order();
+
+        ou 
+
+        var orderOne = new Order
+        {
+            _valor = 120,00, 
+            IdOrder = 1
+        }
+
+## Enum 
+    * Tipos de forma verbosa e explicita na tela. 
+
+    public enum EstadoCivil
+    {
+        Casado = 1, 
+        Solteiro = 2, 
+        Divorciado = 3
+    }
+
+    var pessoa = new Pessoa();
+    pessoa.EstadoCivil = EstadoCivil.Casado; 
+
+## Listas
+    * Tipo Complexo
+    * Pode ser utilizadad como uma alternativa ao array
+    * Possui uma infinidade de métodos prontos
+
+    var tasks = new List<string>()
+    tasks.Add(item: "Ir ao supermercado")
+
+## Funções
+    * Subrotinas que facilitam o desenvolvimento da aplicação realizando ações rotineiras na aplicação. 
+    * Pode ou não possuir um retorno. 
+    * Métodos e classes possui nome com a primeira letra em maíuscula, enquanto os parãmetros possuem nome com a primeira letra em minúscula. 
+
+    * Assinatura do método: Retorno, nome e parâmetros do método. 
+        * permite que tenhamos métodos com o mesmo nome, mas com assinaturas diferentes, ou seja, permite a sua sobrecarga. 
+
+    public class Order
+    {
+        public string Place(float amount)
+        {
+            return $"XPTO00123456 { amount }"; 
+        }
+
+        public void PlaceTwo()
+        {
+            //realiza alguma operação
+        }
+    }
+
+
+## StringBuilder 
+
+    * É um construtor de strings, utilizado quando é necessário realizar a concatenação de muitos valores de strings. 
+
+    var teste = new StringBuilder(); 
+    teste.Append("Texto 01,");
+    teste.Append("Texto 02,");
+    teste.Append("Texto 03,");
+    teste.Append("Texto 04,");
+
+## Tratamento de Exceções
+
+    * É possível capturar erros na exxecução de nosso projeto e realizar o tratamento desta exceção, de acordo com o que acontecer. 
+
+    var teste = new[] { "01" }
+
+    try 
+    {
+        Console.WriteLine(teste[0]);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Algo deu errado! Erro: { ex.Message }")
+    }
